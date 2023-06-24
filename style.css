@@ -1,0 +1,76 @@
+header{
+			apadding: 50px;
+			background-color: hotpink;
+			color: black;	
+			text-align: center;
+			padding: 30;
+			font-family: "Comic Sans Ms";on
+		}
+		nav{
+			overflow: hidden;
+			background-color: black;
+		}
+		nav a{
+			float: left;
+			color: white;
+			padding: 14 73;
+			text-decoration: none;
+
+		}
+		nav a:hover{
+			background-color: darkred;
+			color: white;
+		}
+body{
+	background-color: #f1f1f1;
+}
+.column{
+	float: left;
+	padding: 10px;
+}
+.column.side{
+	width: 25%;
+}
+.column.middel{
+	width: 45%;
+}
+p{
+	text-align: justify;
+}
+div.gallary{
+	margin: 5px;
+	border: 10px solid black;
+	width: 200px;
+	float: left;
+}
+div.gallary img{
+	width: 100%;
+}
+div.gallary:hover{
+	border: 10px solid gold;
+}
+h2{
+	font-family: "Comic Sans Ms";on
+}
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color: hotpink;
+	color: black;
+	padding: 12 20;
+	cursor: pointer;
+	border: none;
+	margin: 10px;
+}
+footer{
+			background-color: hotpink;
+			color: black;
+			clear: all;
+			text-align: center;
+		}
